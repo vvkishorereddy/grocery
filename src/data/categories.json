@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "1",
+    "name": "Grocery"
+  },
+  {
+    "_id": "2",
+    "name": "Fruits"
+  },
+  {
+    "_id": "3",
+    "name": "Soft Drinks"
+  },
+  {
+    "_id": "4",
+    "name": "Dishwashers"
+  },
+  {
+    "_id": "5",
+    "name": "Biscuits & Cookies"
+  },
+  {
+    "_id": "6",
+    "name": "Baby Diapers"
+  },
+  {
+    "_id": "7",
+    "name": "Snacks & Beverages"
+  },
+  {
+    "_id": "8",
+    "name": "Bread & Bakery"
+  },
+  {
+    "_id": "9",
+    "name": "Sweets"
+  },
+  {
+    "_id": "10",
+    "name": "Chocolates & Biscuits"
+  },
+  {
+    "_id": "11",
+    "name": "Personal Care"
+  },
+  {
+    "_id": "12",
+    "name": "Dried Fruits & Nuts"
+  }
+]
