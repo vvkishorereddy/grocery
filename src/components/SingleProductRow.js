@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function SingleProductRow({
   _id,
@@ -14,16 +15,16 @@ export default function SingleProductRow({
           <img src={image} alt={name} />
           <div className="men-cart-pro">
             <div className="inner-men-cart-pro">
-              <a href="single.html" className="link-product-add-cart">
+              <Link to="/product" className="link-product-add-cart">
                 Quick View
-              </a>
+              </Link>
             </div>
           </div>
           <span className="product-new-top">New</span>
         </div>
         <div className="item-info-product ">
           <h4>
-            <a href="single.html">{name}</a>
+            <Link to="/product">{name}</Link>
           </h4>
           <div className="info-product-price">
             <span className="item_price">&#8377; {final_price}</span>
