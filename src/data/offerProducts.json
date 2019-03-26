@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "1",
+    "name": "Aashirvaad, 5g",
+    "mrp_price": "260.00",
+    "discount_price": "40.00",
+    "final_price": "220.00",
+    "image": "images/s1.jpg"
+  },
+  {
+    "_id": "2",
+    "name": "Lakme Eyeconic Kajal, 0.35 g",
+    "mrp_price": "193.00",
+    "discount_price": "40.00",
+    "final_price": "153.00",
+    "image": "images/s9.jpg"
+  },
+  {
+    "_id": "3",
+    "name": "Sprite, 2.25L (Pack of 2)",
+    "mrp_price": "210.00",
+    "discount_price": "30.00",
+    "final_price": "180.00",
+    "image": "images/s5.jpg"
+  },
+  {
+    "_id": "4",
+    "name": "Fair &amp; Lovely, 80 g",
+    "mrp_price": "",
+    "discount_price": "30.00",
+    "final_price": "121.60",
+    "image": "images/s6.jpg"
+  },
+  {
+    "_id": "5",
+    "name": "Cadbury Choclairs, 655.5g",
+    "mrp_price": "",
+    "discount_price": "60.00",
+    "final_price": "160.00",
+    "image": "images/s8.jpg"
+  },
+  {
+    "_id": "6",
+    "name": "Surf Excel Liquid, 1.02L",
+    "mrp_price": "",
+    "discount_price": "30.00",
+    "final_price": "187.00",
+    "image": "images/s3.jpg"
+  },
+  {
+    "_id": "7",
+    "name": "Madhur Pure Sugar, 1g",
+    "mrp_price": "",
+    "discount_price": "20.00",
+    "final_price": "69.00",
+    "image": "images/s2.jpg"
+  },
+  {
+    "_id": "8",
+    "name": "Kissan Tomato Ketchup, 950g",
+    "mrp_price": "",
+    "discount_price": "20.00",
+    "final_price": "99.00",
+    "image": "images/s4.jpg"
+  }
+]

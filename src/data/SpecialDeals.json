@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "1",
+    "name": "Lay's Potato Chips",
+    "mrp_price": "",
+    "discount_price": "",
+    "final_price": "18.00",
+    "image": "images/d2.jpg"
+  },
+  {
+    "_id": "2",
+    "name": "Bingo Mad Angles",
+    "mrp_price": "",
+    "discount_price": "",
+    "final_price": "9.00",
+    "image": "images/d1.jpg"
+  },
+  {
+    "_id": "3",
+    "name": "Tata Salt",
+    "mrp_price": "",
+    "discount_price": "",
+    "final_price": "15.00",
+    "image": "images/d4.jpg"
+  },
+  {
+    "_id": "4",
+    "name": "Gujarat Dry Fruit",
+    "mrp_price": "",
+    "discount_price": "",
+    "final_price": "525.00",
+    "image": "images/d5.jpg"
+  },
+  {
+    "_id": "5",
+    "name": "Cadbury Dairy Milk",
+    "mrp_price": "",
+    "discount_price": "",
+    "final_price": "149.00",
+    "image": "images/d3.jpg"
+  }
+]

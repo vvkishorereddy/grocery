@@ -8,6 +8,7 @@ import RegisterPopUp from "./RegisterPopUp";
 import Nav from "../../Common/Nav";
 import Header from "../../Common/Header";
 import Products from "./Products";
+import Home from "./Home";
 
 export default class index extends Component {
   render() {
@@ -16,7 +17,7 @@ export default class index extends Component {
         <Header />
         <Nav />
         <Slider />
-        <Products />
+        <Home />
         <SpecialOffers />
         <Newsletter />
         <Footer />

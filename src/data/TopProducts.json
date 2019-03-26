@@ -1,0 +1,83 @@
+[
+  {
+    "_id": "1",
+    "name": "Pista..., 250g",
+    "mrp_price": "600.99",
+    "discount_price": "",
+    "final_price": "520.99",
+    "image": "images/m3.jpg",
+    "category": "Nuts"
+  },
+  {
+    "_id": "2",
+    "name": "Almonds, 100g",
+    "mrp_price": "280.00",
+    "discount_price": "",
+    "final_price": "149.00",
+    "image": "images/m1.jpg",
+    "category": "Nuts"
+  },
+  {
+    "_id": "3",
+    "name": "Cashew Nuts, 100g",
+    "mrp_price": "420.00",
+    "discount_price": "",
+    "final_price": "200.00",
+    "image": "images/m2.jpg",
+    "category": "Nuts"
+  },
+  {
+    "_id": "4",
+    "name": "Freedom Oil, 1L",
+    "mrp_price": "78.00",
+    "discount_price": "",
+    "final_price": "110.00",
+    "image": "images/mk4.jpg",
+    "category": "Oils"
+  },
+  {
+    "_id": "5",
+    "name": "Saffola Gold, 1L",
+    "mrp_price": "130.00",
+    "discount_price": "",
+    "final_price": "150.00",
+    "image": "images/mk5.jpg",
+    "category": "Oils"
+  },
+  {
+    "_id": "6",
+    "name": "Fortune Oil, 5L",
+    "mrp_price": "500.00",
+    "discount_price": "",
+    "final_price": "399.99",
+    "image": "images/mk6.jpg",
+    "category": "Oils"
+  },
+  {
+    "_id": "7",
+    "name": "Yippee Noodles, 65g",
+    "mrp_price": "25.00",
+    "discount_price": "",
+    "final_price": "15.00",
+    "image": "images/mk7.jpg",
+    "category": "Pasta & Noodles"
+  },
+  {
+    "_id": "8",
+    "name": "Wheat Pasta, 500g",
+    "mrp_price": "120.00",
+    "discount_price": "",
+    "final_price": "98.00",
+    "image": "images/mk8.jpg",
+    "category": "Pasta & Noodles"
+  },
+  {
+    "_id": "9",
+    "name": "Chinese Noodles, 68g",
+    "mrp_price": "15.00",
+    "discount_price": "",
+    "final_price": "11.99",
+    "image": "images/mk9.jpg",
+    "category": "Pasta & Noodles"
+  }
+]
