@@ -31,13 +31,13 @@ export default class RightSection extends Component {
           {/* second section (nuts special) */}
           <div className="product-sec1 product-sec2">
             <div className="col-xs-7 effect-bg">
-              <h3 className>Pure Energy</h3>
+              <h3 className="">Pure Energy</h3>
               <h6>Enjoy our all healthy Products</h6>
               <p>Get Extra 10% Off</p>
             </div>
             <h3 className="w3l-nut-middle">Nuts &amp; Dry Fruits</h3>
             <div className="col-xs-5 bg-right-nut">
-              <img src="images/nut1.png" alt />
+              <img src="images/nut1.png" alt="" />
             </div>
             <div className="clearfix" />
           </div>

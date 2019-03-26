@@ -21,7 +21,7 @@ export default class LoginPopUp extends Component {
                 <p>
                   Sign In now, Let's start your Grocery Shopping. Don't have an
                   account?
-                  <a href="#" data-toggle="modal" data-target="#myModal2">
+                  <a href="#root" data-toggle="modal" data-target="#myModal2">
                     Sign Up Now
                   </a>
                 </p>

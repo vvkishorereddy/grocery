@@ -7,9 +7,9 @@ export default class Slider extends Component {
         {/* Indicators*/}
         <ol className="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to={0} className="active" />
-          <li data-target="#myCarousel" data-slide-to={1} className />
-          <li data-target="#myCarousel" data-slide-to={2} className />
-          <li data-target="#myCarousel" data-slide-to={3} className />
+          <li data-target="#myCarousel" data-slide-to={1} className="" />
+          <li data-target="#myCarousel" data-slide-to={2} className="" />
+          <li data-target="#myCarousel" data-slide-to={3} className="" />
         </ol>
         <div className="carousel-inner" role="listbox">
           <div className="item active">

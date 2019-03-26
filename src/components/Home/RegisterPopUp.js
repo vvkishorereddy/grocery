@@ -57,7 +57,9 @@ export default class RegisterPopUp extends Component {
                   <input type="submit" defaultValue="Sign Up" />
                 </form>
                 <p>
-                  <a href="#">By clicking register, I agree to your terms</a>
+                  <a href="#root">
+                    By clicking register, I agree to your terms
+                  </a>
                 </p>
               </div>
             </div>

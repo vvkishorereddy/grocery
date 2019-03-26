@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { NavLink } from "react-router-dom";
 
 export default class Nav extends Component {
   render() {
@@ -58,19 +59,19 @@ export default class Nav extends Component {
                 >
                   <ul className="nav navbar-nav menu__list">
                     <li className="active">
-                      <a className="nav-stylehead" href="index.html">
+                      <NavLink className="nav-stylehead" to="/">
                         Home
                         <span className="sr-only">(current)</span>
-                      </a>
+                      </NavLink>
                     </li>
-                    <li className>
-                      <a className="nav-stylehead" href="about.html">
+                    <li className="">
+                      <NavLink className="nav-stylehead" to="/about">
                         About Us
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="dropdown">
                       <a
-                        href="#"
+                        href="#root"
                         className="dropdown-toggle nav-stylehead"
                         data-toggle="dropdown"
                         role="button"
@@ -143,7 +144,7 @@ export default class Nav extends Component {
                             </ul>
                           </div>
                           <div className="col-sm-4 multi-gd-img">
-                            <img src="images/nav.png" alt />
+                            <img src="images/nav.png" alt="" />
                           </div>
                           <div className="clearfix" />
                         </div>
@@ -151,7 +152,7 @@ export default class Nav extends Component {
                     </li>
                     <li className="dropdown">
                       <a
-                        href="#"
+                        href="#root"
                         className="dropdown-toggle nav-stylehead"
                         data-toggle="dropdown"
                         role="button"
@@ -223,15 +224,15 @@ export default class Nav extends Component {
                         </div>
                       </ul>
                     </li>
-                    <li className>
-                      <a className="nav-stylehead" href="faqs.html">
+                    <li className="">
+                      <NavLink className="nav-stylehead" to="/faqs">
                         Faqs
-                      </a>
+                      </NavLink>
                     </li>
                     <li className="dropdown">
                       <a
                         className="nav-stylehead dropdown-toggle"
-                        href="#"
+                        href="#top"
                         data-toggle="dropdown"
                       >
                         Pages
@@ -246,10 +247,10 @@ export default class Nav extends Component {
                         </li>
                       </ul>
                     </li>
-                    <li className>
-                      <a className="nav-stylehead" href="contact.html">
+                    <li className="">
+                      <NavLink className="nav-stylehead" to="/contact">
                         Contact
-                      </a>
+                      </NavLink>
                     </li>
                   </ul>
                 </div>

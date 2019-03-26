@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from "react";
+import { Link } from "react-router-dom";
 
 export default class Header extends Component {
   render() {
@@ -15,11 +16,11 @@ export default class Header extends Component {
             {/* header-bot*/}
             <div className="col-md-4 logo_agile">
               <h1>
-                <a href="index.html">
+                <Link to="/">
                   <span>G</span>rocery
                   <span>S</span>hoppy
                   <img src="images/logo2.png" alt=" " />
-                </a>
+                </Link>
               </h1>
             </div>
             {/* header-bot */}
@@ -36,29 +37,41 @@ export default class Header extends Component {
                   </a>
                 </li>
                 <li>
-                  <a href="#" data-toggle="modal" data-target="#myModal1">
+                  <button
+                    className="btn-link"
+                    data-toggle="modal"
+                    data-target="#myModal1"
+                  >
                     <span className="fa fa-truck" aria-hidden="true" />
                     Track Order
-                  </a>
+                  </button>
                 </li>
                 <li>
                   <span className="fa fa-phone" aria-hidden="true" /> 001 234
                   5678
                 </li>
                 <li>
-                  <a href="#" data-toggle="modal" data-target="#myModal1">
+                  <button
+                    className="btn-link"
+                    data-toggle="modal"
+                    data-target="#myModal1"
+                  >
                     <span className="fa fa-unlock-alt" aria-hidden="true" />{" "}
-                    Sign In{" "}
-                  </a>
+                    Sign In
+                  </button>
                 </li>
                 <li>
-                  <a href="#" data-toggle="modal" data-target="#myModal2">
+                  <button
+                    className="btn-link"
+                    data-toggle="modal"
+                    data-target="#myModal2"
+                  >
                     <span
                       className="fa fa-pencil-square-o"
                       aria-hidden="true"
                     />{" "}
-                    Sign Up{" "}
-                  </a>
+                    Sign Up
+                  </button>
                 </li>
               </ul>
               {/* //header lists */}
@@ -113,7 +126,7 @@ export default class Header extends Component {
             <h3>Please Select Your Location</h3>
             <select className="list_of_cities">
               <optgroup label="Popular Cities">
-                <option selected style={{ display: "none", color: "#eee" }}>
+                <option defaultValue style={{ display: "none", color: "#eee" }}>
                   Select City
                 </option>
                 <option>Birmingham</option>

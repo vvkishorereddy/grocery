@@ -73,7 +73,7 @@ export default class LeftBar extends Component {
           <h3 className="agileits-sear-head">Customer Review</h3>
           <ul>
             <li>
-              <a href="#">
+              <a href="#root">
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
@@ -83,7 +83,7 @@ export default class LeftBar extends Component {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#root">
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
@@ -93,7 +93,7 @@ export default class LeftBar extends Component {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#root">
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
@@ -103,7 +103,7 @@ export default class LeftBar extends Component {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#root">
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
@@ -113,7 +113,7 @@ export default class LeftBar extends Component {
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="#root">
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star" aria-hidden="true" />
                 <i className="fa fa-star-half-o" aria-hidden="true" />
