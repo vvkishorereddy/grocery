@@ -21,6 +21,7 @@ const ErrorPage404 = withSuspense(
 );
 
 const Home = withSuspense(lazy(() => import("../components/Home")));
+const Products = withSuspense(lazy(() => import("../components/Products")));
 
 export default class Router extends Component {
   render() {
@@ -33,6 +34,7 @@ export default class Router extends Component {
         <Route path="/help" exact component={Help} />
         <Route path="/privacy" exact component={Privacy} />
         <Route path="/terms" exact component={Terms} />
+        <Route path="/products" exact component={Products} />
         <Route render={ErrorPage404} />
       </Switch>
     );

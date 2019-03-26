@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import SingleProductRow from "./SingleProductRow";
+import SingleProductRow from "../SingleProductRow";
 import products from "../../data/TopProducts.json";
 
 export default class RightSection extends Component {

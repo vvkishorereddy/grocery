@@ -1,14 +1,14 @@
 import React, { Component, Fragment } from "react";
+import Banner from "../../StaticComponents/Banner";
 import SpecialOffers from "../SpecialOffer/SpecialOffers";
-import Slider from "./Slider";
-import Home from "./Home";
+import Content from "./Content";
 
 export default class index extends Component {
   render() {
     return (
       <Fragment>
-        <Slider />
-        <Home />
+        <Banner />
+        <Content />
         <SpecialOffers />
       </Fragment>
     );

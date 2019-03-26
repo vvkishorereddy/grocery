@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import SpecialDeals from "./SpecialDeals";
 
-export default class LeftBar extends Component {
+export default class LeftSection extends Component {
   render() {
     return (
       <div className="side-bar col-md-3">

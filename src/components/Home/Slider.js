@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Slider extends Component {
   render() {
@@ -23,9 +24,9 @@ export default class Slider extends Component {
                   Get flat
                   <span>10%</span> Cashback
                 </p>
-                <a className="button2" href="product.html">
-                  Shop Now{" "}
-                </a>
+                <Link to="/products" className="button2">
+                  Shop Now
+                </Link>
               </div>
             </div>
           </div>
@@ -40,9 +41,9 @@ export default class Slider extends Component {
                   Get Upto
                   <span>30%</span> Off
                 </p>
-                <a className="button2" href="product.html">
-                  Shop Now{" "}
-                </a>
+                <Link to="/products" className="button2">
+                  Shop Now
+                </Link>
               </div>
             </div>
           </div>
@@ -57,9 +58,9 @@ export default class Slider extends Component {
                   Get Best Offer Upto
                   <span>20%</span>
                 </p>
-                <a className="button2" href="product.html">
-                  Shop Now{" "}
-                </a>
+                <Link to="/products" className="button2">
+                  Shop Now
+                </Link>
               </div>
             </div>
           </div>
@@ -74,9 +75,9 @@ export default class Slider extends Component {
                   Get Now
                   <span>40%</span> Discount
                 </p>
-                <a className="button2" href="product.html">
-                  Shop Now{" "}
-                </a>
+                <Link to="/products" className="button2">
+                  Shop Now
+                </Link>
               </div>
             </div>
           </div>

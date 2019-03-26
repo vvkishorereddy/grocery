@@ -3,8 +3,8 @@ import Router from "./Router";
 import Header from "../Common/Header";
 import Nav from "../Common/Nav";
 import Footer from "../Common/Footer";
-import LoginPopUp from "../components/Home/LoginPopUp";
-import RegisterPopUp from "../components/Home/RegisterPopUp";
+import LoginPopUp from "../components/Login/LoginPopUp";
+import RegisterPopUp from "../components/Register/RegisterPopUp";
 import Newsletter from "../Common/Newsletter";
 
 export default class index extends Component {

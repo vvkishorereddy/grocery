@@ -1,6 +1,6 @@
 import React, { Component, lazy } from "react";
 import withSuspense from "../../HOC/WithSuspense";
-import LeftSection from "./LeftSection";
+import LeftSection from "../LeftSection";
 
 const RightSection = withSuspense(lazy(() => import("./RightSection")));
 

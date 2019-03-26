@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-import products from "../../data/SpecialDeals.json";
+import products from "../data/SpecialDeals.json";
 
 export default class SpecialDeals extends Component {
   render() {
