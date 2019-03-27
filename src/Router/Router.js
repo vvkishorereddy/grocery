@@ -38,7 +38,7 @@ export default class Router extends Component {
         <Route path="/privacy" exact component={Privacy} />
         <Route path="/terms" exact component={Terms} />
         <Route path="/products" exact component={Products} />
-        <Route path="/product" exact component={Product} />
+        <Route path="/product/:id" exact component={Product} />
         <Route render={ErrorPage404} />
       </Switch>
     );

@@ -1,10 +1,28 @@
 import React, { Component } from "react";
+import { withRouter } from "react-router-dom";
 
-export default class Content extends Component {
+import Products from "../../data/Products.json";
+
+class Content extends Component {
+  state = {
+    product: {}
+  };
+
+  componentDidMount() {
+    const SingleProduct = Products.filter(product => {
+      return product._id === this.props.match.params.id;
+    });
+    this.setState({
+      product: SingleProduct[0]
+    });
+  }
+
   render() {
+    const { product } = this.state;
+
     return (
       <div className="col-md-7 single-right-left simpleCart_shelfItem">
-        <h3>Zeeba Premium Basmati Rice - 5 KG</h3>
+        <h3>{product.name}</h3>
         <div className="rating1">
           <span className="starRating">
             <input id="rating5" type="radio" name="rating" defaultValue={5} />
@@ -26,43 +44,19 @@ export default class Content extends Component {
           </span>
         </div>
         <p>
-          <span className="item_price">$950.00</span>
-          <del>$1300.00</del>
-          <label>Free delivery</label>
+          <span className="item_price">&#8377;{product.final_price}</span>
+          <del>&#8377;{product.mrp_price}</del>
+          <label> delivery charges &#8377;{product.delivery_price}</label>
         </p>
         <div className="single-infoagile">
           <ul>
-            <li>Cash on Delivery Eligible.</li>
-            <li>Shipping Speed to Delivery.</li>
-            <li>
-              Sold and fulfilled by Supple Tek (3.6 out of 5 | 8 ratings).
-            </li>
-            <li>
-              1 offer from
-              <span className="item_price">$950.00</span>
-            </li>
+            <li>{`Payment Mode: ${product.payment_type}`}</li>
+            <li>{`Sold and fulfilled by ${product.seller_name}`}</li>
           </ul>
         </div>
         <div className="product-single-w3l">
-          <p>
-            <i className="fa fa-hand-o-right" aria-hidden="true" />
-            This is a<label>Vegetarian</label> product.
-          </p>
-          <ul>
-            <li>Best for Biryani and Pulao.</li>
-            <li>
-              After cooking, Zeeba Basmati rice grains attain an extra ordinary
-              length of upto 2.4 cm/~1 inch.
-            </li>
-            <li>
-              Zeeba Basmati rice adheres to the highest food afety standards as
-              your health is paramount to us.
-            </li>
-            <li>
-              Contains only the best and purest grade of basmati rice grain of
-              Export quality.
-            </li>
-          </ul>
+          {product.description}
+
           <p>
             <i className="fa fa-refresh" aria-hidden="true" />
             All food products are
@@ -104,3 +98,5 @@ export default class Content extends Component {
     );
   }
 }
+
+export default withRouter(Content);

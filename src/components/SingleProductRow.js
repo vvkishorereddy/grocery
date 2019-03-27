@@ -15,7 +15,7 @@ export default function SingleProductRow({
           <img src={image} alt={name} />
           <div className="men-cart-pro">
             <div className="inner-men-cart-pro">
-              <Link to="/product" className="link-product-add-cart">
+              <Link to={`/product/${_id}`} className="link-product-add-cart">
                 Quick View
               </Link>
             </div>
@@ -24,7 +24,7 @@ export default function SingleProductRow({
         </div>
         <div className="item-info-product ">
           <h4>
-            <Link to="/product">{name}</Link>
+            <Link to={`/product/${_id}`}>{name}</Link>
           </h4>
           <div className="info-product-price">
             <span className="item_price">&#8377; {final_price}</span>

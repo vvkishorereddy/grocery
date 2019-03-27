@@ -6,7 +6,11 @@
     "discount_price": "",
     "final_price": "950.00",
     "image": "images/k1.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery"]
   },
   {
     "_id": "2",
@@ -15,7 +19,11 @@
     "discount_price": "",
     "final_price": "104.00",
     "image": "images/k12.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery", "Online Payment"]
   },
   {
     "_id": "3",
@@ -24,7 +32,11 @@
     "discount_price": "",
     "final_price": "123.00",
     "image": "images/k11.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery", "Online Payment"]
   },
   {
     "_id": "4",
@@ -33,7 +45,11 @@
     "discount_price": "",
     "final_price": "140.00",
     "image": "images/k10.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery", "Online Payment"]
   },
   {
     "_id": "5",
@@ -42,7 +58,11 @@
     "discount_price": "",
     "final_price": "134.00",
     "image": "images/k9.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery"]
   },
   {
     "_id": "6",
@@ -51,7 +71,11 @@
     "discount_price": "",
     "final_price": "175.75",
     "image": "images/k8.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Online Payment"]
   },
   {
     "_id": "7",
@@ -60,7 +84,11 @@
     "discount_price": "",
     "final_price": "220.00",
     "image": "images/k7.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery", "Online Payment"]
   },
   {
     "_id": "8",
@@ -69,7 +97,11 @@
     "discount_price": "",
     "final_price": "299.99",
     "image": "images/k6.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery", "Online Payment"]
   },
   {
     "_id": "9",
@@ -78,7 +110,11 @@
     "discount_price": "",
     "final_price": "85.00",
     "image": "images/k5.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery", "Online Payment"]
   },
   {
     "_id": "10",
@@ -87,7 +123,11 @@
     "discount_price": "",
     "final_price": "70.00",
     "image": "images/k4.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery"]
   },
   {
     "_id": "11",
@@ -96,7 +136,11 @@
     "discount_price": "",
     "final_price": "384.00",
     "image": "images/k3.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Online Payment"]
   },
   {
     "_id": "12",
@@ -105,6 +149,10 @@
     "discount_price": "",
     "final_price": "137.00",
     "image": "images/k2.jpg",
-    "category": "Nuts"
+    "category": "Nuts",
+    "delivery_price": "0",
+    "description": "Best for Biryani and Pulao.\n After cooking, Zeeba Basmati rice grains attain an extra ordinary length of upto 2.4 cm/~1 inch. \n Zeeba Basmati rice adheres to the highest food afety standards as your health is paramount to us. \n Contains only the best and purest grade of basmati rice grain of Export quality.",
+    "seller_name": "Supple Tek",
+    "payment_type": ["Cash on Delivery", "Online Payment"]
   }
 ]
