@@ -8,7 +8,7 @@ export default function OfferSingleProduct({
   image
 }) {
   return (
-    <li>
+    <li style={{ listStyleType: "none" }}>
       <div className="w3l-specilamk">
         <div className="speioffer-agile">
           <a href="single.html">
